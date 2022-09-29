@@ -76,7 +76,7 @@ const Trending = () => {
                     <div className=' w-full '>
 
                         <div className=' w-11/12 mx-auto md:w-1/2 lg:mx-0  lg:w-[100%] h-[426px] mb-5 bg-[#FFFFFF] rounded-xl'>
-                            <img className=' w-full  h-[301px] object-cover rounded-t-xl' src={img2} alt="" />
+                            <img className=' w-full   h-[301px] object-cover rounded-t-xl' src={img2} alt="" />
                             <div className=' py-3 px-5'>
                                 <h3 className='text-[#272727] text-2xl font-bold'>Womens Denim Jacket</h3>
                                 <div className=' flex justify-start items-center'>

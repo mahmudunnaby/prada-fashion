@@ -1,6 +1,8 @@
 import React from 'react';
 import img1 from '../../assets/15.jpg'
 import levis from '../../assets/Levis.png'
+import img2 from '../../assets/2.jpg'
+import img3 from '../../assets/16.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper";
 import 'swiper/css';
@@ -11,7 +13,7 @@ const Deals = () => {
     return (
 
         <div className=' w-full '>
-            <h1 className=' mt-[80px] mb-[27px] ml-[50px] text-4xl font-bold'>Trending Now</h1>
+            <h1 className=' mt-[80px] mb-[27px] ml-[50px] text-4xl font-bold'>Deals of the Day</h1>
 
             <Swiper
                 rewind={true}
@@ -59,7 +61,7 @@ const Deals = () => {
                     <div className=' w-full  '>
 
                         <div className=' w-11/12 mx-auto md:w-1/2 lg:mx-0  lg:w-[100%] h-[569px] mb-5 bg-[#FFFFFF] rounded-xl'>
-                            <img className=' w-full  h-[301px] object-cover rounded-t-xl' src={img1} alt="" />
+                            <img className=' w-full  h-[301px] object-cover rounded-t-xl' src={img2} alt="" />
                             <div className=' flex justify-center items-center flex-col mt-8'>
                                 <img src={levis} alt="" />
                                 <h1 className=' text-4xl font-bold text-[#272727] mt-11'>Best of Styles</h1>
@@ -74,7 +76,7 @@ const Deals = () => {
                     <div className=' w-full  '>
 
                         <div className=' w-11/12 mx-auto md:w-1/2 lg:mx-0  lg:w-[100%] h-[569px] mb-5 bg-[#FFFFFF] rounded-xl'>
-                            <img className=' w-full  h-[301px] object-cover rounded-t-xl' src={img1} alt="" />
+                            <img className=' w-full  h-[301px] object-cover rounded-t-xl' src={img3} alt="" />
                             <div className=' flex justify-center items-center flex-col mt-8'>
                                 <img src={levis} alt="" />
                                 <h1 className=' text-4xl font-bold text-[#272727] mt-11'>Best of Styles</h1>
@@ -89,7 +91,7 @@ const Deals = () => {
                     <div className=' w-full  '>
 
                         <div className=' w-11/12 mx-auto md:w-1/2 lg:mx-0  lg:w-[100%] h-[569px] mb-5 bg-[#FFFFFF] rounded-xl'>
-                            <img className=' w-full  h-[301px] object-cover rounded-t-xl' src={img1} alt="" />
+                            <img className=' w-full  h-[301px] object-cover rounded-t-xl' src={img2} alt="" />
                             <div className=' flex justify-center items-center flex-col mt-8'>
                                 <img src={levis} alt="" />
                                 <h1 className=' text-4xl font-bold text-[#272727] mt-11'>Best of Styles</h1>

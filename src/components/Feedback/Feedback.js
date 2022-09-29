@@ -42,11 +42,11 @@ const Feedback = () => {
             >
 
                 <SwiperSlide>
-                    <div className=' w-[70%] mx-auto  '>
+                    <div className=' lg:w-[70%] w-full mx-auto  '>
 
-                        <div className='flex justify-center items-center flex-col w-11/12 mx-auto md:w-1/2 lg:mx-0  lg:w-[100%] h-[569px] mb-5 bg-[#FFFFFF] rounded-xl p-10'>
-                            <img className=' w-[150px]  h-[150px] object-cover rounded-full' src={pic} alt="" />
-                            <div className='flex justify-center items-center ml-5'>
+                        <div className='flex justify-center items-center flex-col w-full mx-auto md:w-1/2 lg:mx-0  lg:w-[100%] lg:h-[569px] h-[700px] mb-5 bg-[#FFFFFF] rounded-xl p-10'>
+                            <img className=' w-[150px]  h-[150px] object-cover rounded-full mb-5' src={pic} alt="" />
+                            <div className='flex justify-center items-center ml-5 '>
                                 <BsFillStarFill className='text-[#848484] text-lg ml-1 cursor-pointer' />
                                 <BsFillStarFill className='text-[#848484] text-lg ml-1 cursor-pointer' />
                                 <BsFillStarFill className='text-[#848484] text-lg ml-1 cursor-pointer' />
@@ -54,24 +54,25 @@ const Feedback = () => {
                                 <span className='p-1 text-lg text-[#848484] ml-2'>4.4</span>
 
                             </div>
-                            <p className=' text-2xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui vel morbi cursus sed sodales molestie proin dictum gravida. Porttitor maecenas tincidunt ipsum semper malesuada. In sapien feugiat laoreet convallis eu sed. Sapien et montes, duis tempor euismod augue cras eu eget. Risus suspendisse mauris ullamcorper </p>
+                            <p className=' lg:text-2xl text-lg '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui vel morbi cursus sed sodales molestie proin dictum gravida. Porttitor maecenas tincidunt ipsum semper malesuada. In sapien feugiat laoreet convallis eu sed. Sapien et montes, duis tempor euismod augue cras eu eget. Risus suspendisse mauris ullamcorper </p>
 
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className=' w-[70%] mx-auto  '>
+                    <div className=' lg:w-[70%] w-[90%] mx-auto  '>
 
-                        <div className='flex justify-center items-center flex-col w-11/12 mx-auto md:w-1/2 lg:mx-0  lg:w-[100%] h-[569px] mb-5 bg-[#FFFFFF] rounded-xl p-10'>
-                            <img className=' w-[150px]  h-[150px] object-cover rounded-full' src={pic} alt="" />
-                            <div className='flex justify-center items-center ml-5'>
+                        <div className='flex justify-center items-center flex-col w-full mx-auto md:w-1/2 lg:mx-0  lg:w-[100%] lg:h-[569px] h-[700px] mb-5 bg-[#FFFFFF] rounded-xl p-10'>
+                            <img className=' w-[150px]  h-[150px] object-cover rounded-full mb-5' src={pic} alt="" />
+                            <div className='flex justify-center items-center ml-5 '>
                                 <BsFillStarFill className='text-[#848484] text-lg ml-1 cursor-pointer' />
                                 <BsFillStarFill className='text-[#848484] text-lg ml-1 cursor-pointer' />
                                 <BsFillStarFill className='text-[#848484] text-lg ml-1 cursor-pointer' />
                                 <BsFillStarFill className='text-[#848484] text-lg ml-1 cursor-pointer' />
                                 <span className='p-1 text-lg text-[#848484] ml-2'>4.4</span>
+
                             </div>
-                            <p className=' text-2xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui vel morbi cursus sed sodales molestie proin dictum gravida. Porttitor maecenas tincidunt ipsum semper malesuada. In sapien feugiat laoreet convallis eu sed. Sapien et montes, duis tempor euismod augue cras eu eget. Risus suspendisse mauris ullamcorper </p>
+                            <p className=' lg:text-2xl text-lg '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui vel morbi cursus sed sodales molestie proin dictum gravida. Porttitor maecenas tincidunt ipsum semper malesuada. In sapien feugiat laoreet convallis eu sed. Sapien et montes, duis tempor euismod augue cras eu eget. Risus suspendisse mauris ullamcorper </p>
 
                         </div>
                     </div>

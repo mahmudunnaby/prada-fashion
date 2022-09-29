@@ -12,7 +12,7 @@ import 'swiper/css/scrollbar';
 const OffersTrend = () => {
     return (
         <div className=' w-full '>
-            <h1 className=' mt-[112px] mb-[27px] ml-[50px] text-4xl font-bold'>Trending Now</h1>
+            <h1 className=' mt-[112px] mb-[27px] ml-[50px] text-4xl font-bold'>Trending Offer</h1>
 
             <Swiper
                 rewind={true}
@@ -61,7 +61,7 @@ const OffersTrend = () => {
                     <div className=' w-[98%] lg:h-[587px] lg:w-full  mt-8  mr-14'>
                         <div className=' flex justify-center items-center'>
                             <div className='w-full flex flex-col justify-center items-center bg-[#FFFFFF] h-[587px] shadow'>
-                                <img className='w-[73%] lg:w-full' src={img3} alt="" />
+                                <img className='w-[73%] ' src={img3} alt="" />
                                 <h3 className='text-2xl lg:text-5xl font-bold mt-14'>Min 50% off</h3>
                                 <button className="btn btn-outline mt-12">Explore</button>
                             </div>
