@@ -42,7 +42,7 @@ const Feedback = () => {
             >
 
                 <SwiperSlide>
-                    <div className=' lg:w-[70%] w-full mx-auto  '>
+                    <div className=' lg:w-[70%] w-[90%] mx-auto  '>
 
                         <div className='flex justify-center items-center flex-col w-full mx-auto md:w-1/2 lg:mx-0  lg:w-[100%] lg:h-[569px] h-[700px] mb-5 bg-[#FFFFFF] rounded-xl p-10'>
                             <img className=' w-[150px]  h-[150px] object-cover rounded-full mb-5' src={pic} alt="" />
